@@ -2,7 +2,7 @@
 import './index.css'
 
 const TodoItem = props => {
-  const {id, title} = props
+  const {id, title, deleteUser} = props
 
   const onDelete = () => {
     deleteUser(id)
