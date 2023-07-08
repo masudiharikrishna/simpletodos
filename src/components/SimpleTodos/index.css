@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.todos-container {
+  background-color: white;
+  width: 90%;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.main-heading {
+  color: #ff8542;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  width: 90%;
+}
